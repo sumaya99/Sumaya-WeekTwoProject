@@ -1,0 +1,1116 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab:600');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Josefin+Slab:100');
+
+.topwrapper{
+width: 80%;
+margin: 0 auto;
+}
+.backColor{
+  background-color: rgb(247, 248, 248);
+}
+
+body{
+  font-family: 'Poiret One', cursive;
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 1em;
+}
+h2,h3,h4{
+  color: rgb(118, 114, 108);
+  font-family:'Josefin Sans', sans-serif;
+}
+  /*/////// MEDIA ////////*/
+
+img,iframe,form {
+    width: 100%;
+  max-width: 100%;
+
+}
+
+/*--background--*/
+.container{
+height: auto;
+background: url(../images/nik-lanus-41808-unsplash.jpg) no-repeat center top;
+background-size: cover;
+height: 100vh;
+width: 100%;
+padding: 9px;
+background-position: center;
+}
+
+
+
+/*//////Navbar/////*/
+
+.homenav{
+  width: 100%;
+  position: relative;
+  left:15%;
+  padding:1%;
+}
+.otherLogo h2{
+font-weight: 100;
+color: rgb(113, 117, 122);
+font-family:'Josefin Sans', sans-serif;
+margin-left:-400px;
+text-align: left;
+}
+.otherLogo1 h2{
+  font-weight: 100;
+  color: rgb(113, 117, 122);
+  font-family:'Josefin Sans', sans-serif;
+  margin-left:-400px;
+  text-align: left;
+  font-size: 27px;
+  line-height: 1em;
+  }
+a {
+  text-decoration: none;
+}
+ .othernavbar{
+   background-color: white;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-start;
+ }
+
+nav a {
+    margin: 25px 18px 18px 18px;
+    padding: 5px 25px;
+    color: rgb(71, 73, 75);
+    text-align: center;
+    text-decoration: none;
+    font-size:1.5em ;
+    position: relative;
+    top:20px;
+  }
+ 
+  .active{
+    background:rgba(85, 72, 66, 0.5);
+    border: 2px solid #494239;
+    color: white;
+    border-radius: 8%;
+  }
+  
+  /*header*/
+  #homelogo h1{
+  font: 80px'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(113, 117, 122);
+  margin-top:370px;
+  margin-left: -740px;
+  }
+
+  /* form */
+  .visitorsdiv {
+  background-color: white;
+  display: inline-block;
+  height: 460px;
+  width: 460px;
+  border: 1px solid gray;
+  border-radius:10px; 
+  margin-top:-100%;
+  position:relative;
+  top:-115px;
+  left:345px;
+  }
+  .visitorsdiv div{
+ margin: 60px 10px;
+ font-size: 1.1em;
+ font-family:'Josefin Sans', sans-serif;  
+ color: rgb(88, 80, 66);
+  }
+  .visitorsdiv div input{
+  width: 30%;
+  border: 1.5px solid rgb(95, 88, 76);
+  text-align: center;
+  margin-left: 20%;
+  color: rgb(95, 88, 76);
+  padding: 3% -5%;
+  }
+  .visitorsdiv #visitor{
+    width: 10%;
+    border: 1.5px solid rgb(95, 88, 76);
+    margin-left: 40%;
+    color: rgb(95, 88, 76);
+
+  }
+  .continue{
+    width: 60%;
+    padding: 5% 20% ;
+    background: white;
+    border: 2px solid rgb(75, 69, 61);
+    border-radius: 10px;
+    border-radius: 8px;
+    color: rgb(75, 69, 61);
+  }
+  /* services */
+
+#service{
+  text-align: center;
+  height: 500px;
+  margin-bottom: 10%;
+}
+
+.item{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.item div{
+  width: 28%;
+  margin: 5% 2%;
+}
+
+.item i{
+  font-size: 2.5em;
+  color: rgb(71, 66, 59);
+}
+#service h2{
+  color: rgb(58, 54, 49);
+  font-weight: 100;
+  margin-top: 8%;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 45px;
+  }
+
+/*--room--*/
+#room{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.roomImg{
+  width: 60%;
+}
+.roomImg img{
+  width:100%;
+  height:670px;
+}
+.roomText h2{
+  color: rgb(105, 108, 112);
+  font-weight:100;
+  font-size: 50px;
+  letter-spacing: 3px;
+  line-height: 1;
+  margin-bottom: -5%;
+}
+.roomText p{
+  width:85%;
+  font-size:1.1em;
+  color: rgb(119, 122, 126);
+}
+  .roomText{
+    width: 40%;
+    margin: -4% 2% 0;
+    text-align: left;
+  }
+  .roomButton{
+    font:1.2em'Josefin Sans', sans-serif;
+    padding: 20px 100px 18px 100px;
+    color: rgb(85, 79, 70);
+    border: 2px solid rgb(85, 79, 70);
+    background-color:rgba(255, 255, 255, 0.315);
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  /*--guests--*/
+  #guest{
+   margin-top: 5%;
+    text-align: center;
+    color: rgb(73, 65, 55);
+  }
+  #guest h2{
+    color: rgb(113, 117, 122);
+    font-weight:100;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 1;
+  }
+  #guest p{
+    color: rgb(119, 114, 107);
+  }
+  .finalsec{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .finalsec div{
+    border-radius: 2%;
+    display: block;
+    width: 40%;
+    margin: 5%;
+    padding:2% 7%;
+    background-color: white;
+    border: 2px solid rgb(73, 65, 55);
+    font-size: 1em;
+  }
+  .boy p{
+  width:89%;
+  }
+  .finalsec i{
+    font-size: 2em;
+    margin: 0 3%;
+  }
+
+  /*--footer--*/
+
+  .footerrow {
+    background-color: rgb(80, 73, 60);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3%;
+  }
+ .sign{
+    margin:0 15% 0 5%;
+    display: flex;
+    flex-direction: column;
+    width:25%;
+  }
+  .sign h3{
+      font: 1.5em'Josefin Sans', sans-serif;
+      font-weight: 100;
+      color: rgb(168, 167, 164);
+      margin-left: -20%;
+  }
+  footer input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 2%;
+    border-radius: 8px;
+  }
+  .footerButton{
+    width: 100%;
+    margin-top: 10px;
+    padding: 2%;
+    border-radius: 8px;
+    background-color: rgb(84, 77, 65);
+    border: 2px solid white;
+    color: white;
+  }
+.sign h3{
+  text-align: center;
+  }
+  .social{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+    margin-right: -15%;
+    margin-bottom: 5%;
+  }
+  .social a{
+  font-size: 3em;
+  color: white;
+  margin: 0 0 0 5%;
+  }
+
+  /*///////CONTACT US///////*/
+  #contactus{
+  background: url(../images/francesca-saraco-65449-unsplash.jpg) no-repeat ;
+  height: auto;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 9px;
+  background-position: center;
+    
+  }
+#contactus h1{
+  width: 60%;
+
+  margin:0 20%;
+  font: 6em'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(113, 117, 122);
+  background-color: rgba(255,255,255,0.8);
+  position: relative;
+  top: 6%;
+  padding: 53px 0 ;
+  text-align: center;
+}
+
+
+  /*--location--*/
+  #ourLocation{
+    display: flex;
+    flex-direction: row;
+    padding: 6% 2% 12% 2%;
+  }
+  
+  .map{
+    width: 78%;
+    height: 400px;
+  }
+  .address{
+    width: 23%;
+    text-align: left;
+    margin: 2% 3% 0 3%;
+    color: rgb(77, 72, 68);
+  }
+  .address h2{
+    font:40px'Josefin Sans', sans-serif;
+    font-weight: 100;
+    text-align:left;
+    margin: -8% 2% 6%;
+  }
+.item- {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  line-height: 2.8em;
+  font-family:normal;
+}
+.item- i{
+  font-size:1.8em;
+  margin-top: 5%;
+}
+.item- a{
+  font-size:1.6em;
+  text-decoration: none;
+  color: rgb(77, 72, 68);
+}
+.item- address{
+  white-space: nowrap;
+ 
+}
+/*Get in Touch*/
+
+#getInTouch{
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: white;
+  margin-bottom: -1.9%;
+  overflow: hidden;
+}
+
+.get{
+  width: 50%;
+  margin-right: -3.4%;
+}
+.getin{
+  text-align: center;
+  margin-right: 16%;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  width:30%;
+}
+.getin h2{
+  font: 2em'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(113, 117, 122);
+  margin-top: 5%;
+}
+.getin input{
+  padding: 13px 50px 13px 16px;
+  border: 2px solid rgb(88, 81, 68);
+  margin-top: 10%;
+  border-radius: 8px;
+}
+
+.getin textarea{
+  width: 100%;
+  height: 200px;
+  padding: 13px 50px 13px 16px;
+  border: 2px solid rgb(88, 81, 68);
+  margin-top: 10%;
+  border-radius: 8px;
+}
+.get-button{
+  background-color: rgb(84, 77, 65);
+  color: rgb(153, 154, 155);
+  text-align: center;
+  padding: 13px 50px 13px 16px;
+  margin-top: 10%;
+  border: none;
+  border-radius: 8px;
+}
+
+/*///////ROOMHEADERH1///////*/
+
+.roomheader h1{
+  font: 45px'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(88, 88, 86);
+  padding: 30px;
+  text-align: center;
+}
+
+/*//////////MASTERSUIT/////////*/
+#master{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+height:700px;
+}
+.rhema{
+width: 58%;
+margin-left: -3.4%;
+margin-top: -1.4%;
+overflow: hidden;
+}
+.rhema img{
+height:840px;
+width:100%;
+}
+.master-suit{
+  width: 42%;
+  margin-left: 4%;
+  background-color: white;
+  text-align: left;
+}
+.master-suit h2{
+  font: 2.2em'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(113, 117, 122);
+  margin-top: 10%;
+}
+.master-suit p{
+  width: 78%;
+  text-align: left;
+  font-size:1em;
+  color: rgb(139, 134, 131);
+}
+.button{
+padding: 20px 100px 18px 100px;
+border: 2px solid rgb(85, 79, 70);
+border-radius: 8px;
+background-color:rgba(255, 255, 255, 0.473);
+color: rgb(85, 79, 70);
+margin-top: 12%;
+font:1.5em'Josefin Sans', sans-serif;
+text-align: center;
+font-weight: bold;
+}
+/*//////////JUNIOR/////////*/
+#junior{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.armin{
+  width: 42%;
+}
+.armin img{
+margin-bottom: 8%;
+}
+.junior-suit{
+  width: 58%;
+  text-align: center;
+  margin: 8% 0;
+  background-color: white;
+}
+.junior-suit h2{
+  font: 2.2em'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(113, 117, 122);
+ margin: 8% 10% 8% 0%;
+}
+.junior-suit p{
+  width: 57%;
+  color: rgb(139, 134, 131);
+  text-align: left;
+  font-size:1em;
+  margin:0 auto;
+}
+
+/*--standard--*/
+h4{
+  font: 1.5em'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(100, 97, 92);
+}
+#standardromms h2{
+  font: 3em'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: rgb(100, 97, 92);
+}
+.pic p{
+  color: rgb(139, 134, 131);
+  text-align: left;
+  font-size:1.1em;
+  margin-left: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.standard{
+  display: flex;
+  flex-direction: row;
+}
+.standard .pic{
+  width: 30%;
+  margin: 1% 1% 2% 2%;
+  background-color: white;
+}
+.last {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/*/////////animation/////////*/
+.social i{
+  cursor:pointer;
+  background:linear-gradient(45deg,orangeRed 50%,white 50%);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+position: relative;
+color:#fff;
+}
+
+i:after{
+  content:"";
+  background:linear-gradient(45deg,orangeRed 50%, transparent);
+  z-index:-1;
+}
+.social i, .social i:after{
+  background-size: 300%;
+  background-position: 100%;
+  transition:1s,font-size .2s;
+}
+button, button:after{
+  background-size: 300%;
+  background-position: 100%;
+  transition:1s,font-size .2s;
+}
+button:hover, i:hover{
+  background-position: 0;
+  font-size: 1.1em;
+  color:orangeRed;
+}
+button:hover:after, i:hover:after{
+  background-position: 0;
+  font-size: 1.1em;
+  color:orangeRed;
+}
+/*////////////////////////////////////////////
+//////////////RESPONSIVE///////////////////
+//////////////////////////////////////////*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .topwrapper{
+    width:90%;
+  }
+  body{
+    font-size: 1.33em;
+  }
+  .otherLogo1 h2{
+    margin-left:-330px;
+    margin-bottom:5%;
+  }
+    nav a {
+    margin: 15px 8px 12px 8px;
+    padding: 3px 5px;
+  }
+    .otherLogo h2{
+      margin-left:-355px;
+    }
+    #contactus h1{
+    font-size: 5em;
+    }
+    #ourLocation{
+      padding: 12% 2% 13% 2%;
+  }
+  .item- a{font-size:1.4em;
+  }
+  .get {
+    margin-right:-5%;
+    margin-bottom:-0.5%;
+  }
+  .homenav{
+    left :18%;
+    padding-left: -25px;
+    padding-right: 25px;
+  }
+  #homelogo h1{
+    margin-top:490px;
+    margin-left: -510px;
+    font-size:70px;
+  }
+  .visitorsdiv{
+    left:200px;
+  }
+  .roomText p{
+      width:100%;
+      font-size:1em;
+  }
+  .finalsec {
+    font-size: 0.8em;
+    margin: 0 -2%;
+  }
+  nav a.menu-icon {
+    display: none;
+    
+}
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+.topwrapper{
+  width:90%;
+}
+body{
+  font-size: 0.9em;
+  }
+nav a.menu-icon {
+  display: none;
+  
+}
+.otherLogo1 h2{
+  margin-left:-330px;
+  margin-bottom:5%;
+}
+  nav a {
+  margin: 15px 8px 12px 8px;
+  padding: 3px 5px;
+}
+  .otherLogo h2{
+    margin-left:-355px;
+  }
+  #contactus h1{
+  font-size: 5em;
+  }
+  #ourLocation{
+    padding: 12% 2% 13% 2%;
+}
+.item- a{font-size:1.4em;
+}
+.get {
+  margin-right:-5%;
+  margin-bottom:-0.5%;
+}
+.homenav{
+  left :18%;
+  padding-left: -25px;
+  padding-right: 25px;
+}
+#homelogo h1{
+  margin-top:490px;
+  margin-left: -510px;
+  font-size:70px;
+}
+.visitorsdiv{
+  left:200px;
+}
+.roomText p{
+    width:100%;
+    font-size:1em;
+}
+.finalsec {
+  font-size: 0.8em;
+  margin: 0 -2%;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.topwrapper{
+  width:90%;
+}
+.homenav a.menu-icon{
+  display:block;
+  color:#494239;
+  font-size: 5em;
+  margin-top:0%;
+  margin-right:-58%;
+  font-weight: bold;
+}
+  nav a.menu-icon{
+   display:block;
+   color:#494239;
+   font-size: 4.5em;
+   margin-top:5%;
+   font-weight: bold;
+ } 
+.otherLogo1 h2{
+  margin-left:-740px;
+  margin-bottom:5%;
+}
+nav a{
+  display:none;
+}
+#junior{
+  height:600px;
+}
+.armin img{
+height:560px;
+}
+.social a{
+  font-size: 3.2em;
+}
+.master-suit button{
+  margin-top: 35%;
+}
+footer input, .footerButton{
+  font-size: 1.5em;
+  margin-top: 6px;
+}
+body{
+  font-size:0.8em;
+}
+.visitorsdiv{
+  top:-100px;
+  left:190px;
+}
+.visitorsdiv div{
+  font-size: 2em;
+  margin-left: -10%;
+}
+#homelogo h1{
+  margin-top:440px;
+  margin-left: -500px;
+}
+#service{
+  text-align: center;
+  height: 400px;
+  margin-bottom: 15%;
+  font-size: 1.66em;
+}
+.roomText p{
+  width:85%;
+  font-size: 1.5em;
+}
+.roomText h2{
+  font-size: 48px;
+}
+.finalsec p{
+  font-size: 1.1em;
+}
+.finalsec div{
+  width: 48%;
+  margin: 2%;
+  margin-bottom: 6%;
+}
+.otherLogo h2{
+  margin-left:-755px;
+}
+#contactus h1{
+  width: 80%;
+  right:10%;
+  top: 13%;
+  padding: 58px 0;
+}
+#ourLocation{
+display:inline;
+}
+.map{
+  width:75%;
+  display:block;
+  margin: 4% 12%;
+}
+.address{
+  width:60%;
+  display:block;
+  margin-top: 15%;
+  font-size: 1.5em;
+  margin-left: 200px;
+  margin-bottom: -70px;
+}
+.address h2{
+  text-align: center;
+  color:#494239;
+}
+#getInTouch{
+  display:inline;
+}
+.get{
+  width:70%;
+display:block;
+margin: 0 auto;
+margin-top: -1.5%;
+}
+.getin{
+  width:27%;
+display:block;
+margin:0 auto;
+}
+.getin input{
+  padding: 13px 100px 13px 100px;
+  margin-left: -30%;
+}
+.getin textarea{
+  margin-right: 30%;
+  margin-left: -30%;
+  width:153%;
+}
+.get-button{
+  padding: 13px 180px 13px 170px;
+  margin-bottom: 15%;
+  margin-left: -30%;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .topwrapper{
+    width:90%;
+  }
+  body{
+    font-size: 0.4em;
+  }
+  nav a{
+    display:none;
+  }
+  .homenav a.menu-icon{
+    display:block;
+    color:#494239;
+    font-size: 5em;
+    margin-top:0%;
+    margin-right:-58%;
+    font-weight: bold;
+  }
+  nav a.menu-icon{
+    display:block;
+    color:#494239;
+    font-size: 5em;
+    margin-top:-5%;
+    margin-right: -20%;
+    font-weight: bold;
+  } 
+  nav{
+    padding-top: -20%;
+  }
+  .otherLogo h2{
+    margin-left:-320px;
+  }
+  #contactus{
+    width:100%;
+    height:300px;
+  }
+  #contactus h1{
+    width: 150%;
+    right:50%;
+    top: 2%;
+    text-align: center;
+    padding: 35px 0;
+  }
+  #ourLocation{
+    display: flex;
+    flex-direction: column;
+  }
+  .map{
+  width:100%;
+  }
+  .address{
+   width:100%;
+   font-size: 2em;
+   margin-left: 5px;
+   margin-bottom: -80px;
+  }
+  .address i{
+    margin-top: -4%;
+  }
+  .address h2{
+    margin-top: 20%;
+    text-align: center;
+  }
+  #getInTouch{
+    display: flex;
+    flex-direction: column;
+  }
+  .get{
+  width:100%;
+overflow: hidden;
+  }
+  .getin{
+    width:100%;
+    margin-bottom: 10%;
+  }
+  .getin h2{
+    font-size: 6em;
+  }
+  .getin input, .getin textarea, .get-button{
+    font-size:3em;
+  }
+  .footerrow{
+    display: flex;
+    flex-direction: column;
+  }
+  .sign{
+    width:65%;
+    margin:auto;
+   margin-bottom: 2%;
+  }
+  .sign input, .sign button{
+    padding-top: 5%;
+    font-size:2em;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+  }
+  .sign h3{
+    font-size: 4.5em;
+    margin: auto;
+    padding-top: 5%;
+  }
+  .social{
+    width:100%;
+    font-size: 2em;
+    letter-spacing: 20px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.otherLogo1{  
+  margin-right:-100px;
+  margin-bottom:-3%;
+}
+.roomheader h1{
+font-size: 38px;
+  padding: 10px;
+}
+#master{
+  display: flex;
+  flex-direction: column;
+}
+  .rhema{
+    width:100%;
+    margin-left: 0%;
+  }
+  .master-suit{
+    width:100%;
+  }
+  .master-suit p{
+    width:100%;
+    font-size: 2.7em;
+    line-height: 1.6;
+  }
+  .button{
+  font-size: 3em;
+  margin-left: 13%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  }
+  #junior{
+    display: flex;
+    flex-direction: column;
+  }
+  #junior .junior-suit{
+    margin: -8% 5% 0% 5%;
+  }
+  .armin{
+    width:100%;
+  }
+  .junior-suit{
+    width:100%;
+    margin-top:-8%;
+  }
+  .master-suit h2, .junior-suit h2, #standardromms h2{
+    font-size: 38px;
+    margin-left: 8%;
+  }
+  .junior-suit p{
+    width:100%;
+    font-size: 2.8em;
+    line-height: 1.6;
+  }
+  .standard{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10% 5% 10%;
+  }
+  .pic p{
+  color: rgb(139, 134, 131);
+  text-align: left;
+  font-size:3.5em;
+  line-height: 1.2;
+  margin-left: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.standard .pic{
+  width: 100%;
+  margin: 6% -3% 2% 0%;
+  background-color: white;
+}
+.pic h4{
+  font-size: 30px;
+    margin-left: 8%;
+}
+#homelogo h1{
+  margin-top:40px;
+  margin-left: -90px;
+}
+.container{
+  height:450px;
+}
+.flex { display: block; width: 100%;}
+.visitorsdiv{
+  top:280px;
+  left:0px;
+  height: 360px;
+  width: 370px;
+}
+.visitorsdiv div{
+  font-size: 3em;
+  margin-bottom: 0%;
+}
+.continue{
+  font-size: 3em;
+  margin-top: 3%;
+}
+/*
+#service{
+  height:400px;
+}
+#room{
+  display: flex;
+  flex-direction: column;
+}
+.roomImg{
+  width:100px;
+}
+.roomText{
+  width:100px;
+  height:300px;
+}
+.roomText p{
+  width:100%;
+  font-size: 1.5em;
+  line-height: 1;
+}
+.roomText h2{
+font-size: 38px;
+    margin-left: 8%;
+}
+.roomImg img{
+  width:100%;
+  height:370px;
+  
+}*/
+
+}
+
+/*//////FIX//////*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+  
+  .clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  }
+  
+  .clear {
+  clear: both;
+  }
